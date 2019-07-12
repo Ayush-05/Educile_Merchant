@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1c1c16">
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kjhgfdsfgh"
+                android:textColor="#f2f2ef"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/button2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="33dp"
+                android:text=""
+                android:textColor="#08f508"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv1"
+                android:layout_marginTop="3dp"
+                android:text="kjhgfdsfgh"
+                android:textColor="#f2f2ef"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv3"
+                android:layout_marginTop="3dp"
+                android:text="kjhgfdsfgh"
+                android:textColor="#f2f2ef"
+                android:textSize="17dp" />
+
+
+
+            <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv2"
+            android:layout_marginTop="3dp"
+            android:text="kjhgfdsfgh"
+            android:textColor="#f2f2ef"
+            android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/tutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv5"
+                android:layout_marginTop="3dp"
+                android:text="kjhgfdsfgh"
+                android:textColor="#f2f2ef"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/rupees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tutor"
+                android:layout_marginTop="3dp"
+                android:text="kjhgfdsfgh"
+                android:textColor="#f2f2ef"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rupees"
+                android:layout_marginTop="3dp"
+                android:text="kjhgfdsfgh"
+                android:textColor="#f2f2ef"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/ac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/address"
+                android:layout_marginTop="3dp"
+                android:text="kjhgfdsfgh"
+                android:textColor="#f2f2ef"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_below="@+id/ac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f2f2ef"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="10dp"
+                android:text="dfe" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignBaseline="@+id/tv3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="22dp"
+                android:text="Paid" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
